@@ -1,10 +1,10 @@
-import React from 'react'
+import logo from '../../../public/images/logo.svg'
 
 const Footer = () => {
   return (
     <section className='bg-[#0c1524] pt-[250px] md:pt-[200px] pb-[100px] px-[20px]'>
         <div className="container mx-auto">
-            <img src="/src/assets/images/logo.svg" alt="" />
+            <img src={logo} alt="" />
     <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  my-9 gap-[30px] ">
 
         
