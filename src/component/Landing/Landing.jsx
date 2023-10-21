@@ -16,7 +16,7 @@ accessible anywhere.</h1>
 
 
     <div className="w-full h-[200px] object-cover">
-      <img src='./public/images/bg-curvy-desktop.svg' className='w-full h-full
+      <img src='/images/bg-curvy-desktop.svg' className='w-full h-full
       ' alt="curve" />
     </div>
   </section>
