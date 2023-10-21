@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import logo from '../../../public/images/logo.svg'
+import logo from '/images/logo.svg'
 
 const Navbar = () => {
     const [links,setLinks] = useState(['Features','Team','Signin'])
