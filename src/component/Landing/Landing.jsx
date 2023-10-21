@@ -1,5 +1,5 @@
-import landing from '/images/illustration-intro.png'
-import curve from '/images/bg-curvy-desktop.svg'
+import landing from './images/illustration-intro.png'
+import curve from './images/bg-curvy-desktop.svg'
 
 const Landing = () => {
   return <section className="pt-[200px] ">

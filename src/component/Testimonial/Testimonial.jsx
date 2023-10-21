@@ -30,7 +30,7 @@ const Testimonial = () => {
     <section className="bg-[#181e2a] pb-[250px]">
       <div className="container relative ">
         <div className="qute absolute left-[-10px] top-[-35px] ">
-          <img src={`/images/bg-quotes.png `} alt="" />
+          <img src={`./images/bg-quotes.png `} alt="" />
         </div>
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 relative z-10">
                 {testimonial.map((test)=>(
