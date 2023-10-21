@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import logo from '../../assets/images/logo.svg'
+
 
 const Navbar = () => {
     const [links,setLinks] = useState(['Features','Team','Signin'])
@@ -26,7 +26,7 @@ const Navbar = () => {
   <header ref={headerRef} className=' transition-all duration-200 py-[50px] z-50 fixed top-0 left-0 w-full'>
     <nav>
       <div className=" container mx-auto flex gap-[30px] sm:gap-0 flex-col sm:flex-row justify-between items-center ">
-      <img src={logo} alt="" />
+      <img src='../../../public/images/logo.svg' alt="" />
         <ul className='flex gap-[50px]'>
         {links.map((link)=> <li key={link}>
             <a className='text-white opacity-[0.7] hover:opacity-[1] hover:underline transition-all' href={`/${link.toLowerCase()}`}>

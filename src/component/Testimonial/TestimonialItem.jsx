@@ -6,7 +6,7 @@ const TestimonialItem = ({desc,image,name,position}) => {
     <p className="tracking-[0.8px] mb-3 text-sm">{desc}</p> 
     <div className="flex gap-3">
 
-    <img className="w-[50px] h-[50px] rounded-full object-contain" src={`/src/assets/images/${image}`} alt="clientPhoto" />
+    <img className="w-[50px] h-[50px] rounded-full object-contain" src={`public/images/${image}`} alt="clientPhoto" />
    <div>
    <strong className="d-block">{name}</strong>
     <p className="font-normal">{position}</p>

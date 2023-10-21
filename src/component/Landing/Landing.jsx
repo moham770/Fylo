@@ -1,4 +1,4 @@
-import landing from '../../assets/images/illustration-intro.png'
+import landing from '../../../public/images/illustration-intro.png'
 
 const Landing = () => {
   return <section className="pt-[200px] ">
@@ -16,7 +16,7 @@ accessible anywhere.</h1>
 
 
     <div className="w-full h-[200px] object-cover">
-      <img src='/src/assets/images/bg-curvy-desktop.svg' className='w-full h-full
+      <img src='../../../public/images/bg-curvy-desktop.svg' className='w-full h-full
       ' alt="curve" />
     </div>
   </section>
