@@ -1,5 +1,5 @@
-import arrow from '../images/icon-arrow.svg'
-import  imagee from './images/illustration-stay-productive.png' 
+import arrow from '/images/icon-arrow.svg'
+import  imagee from '/images/illustration-stay-productive.png' 
 const Stayproductive = () => {
   return <section className='bg-[#181e2a] pb-[150px]'>
   <div className="container">
